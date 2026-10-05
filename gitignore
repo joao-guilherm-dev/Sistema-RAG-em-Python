@@ -1,0 +1,34 @@
+# --- RAG ---
+rag_index/
+docs/
+*.npy
+
+# --- Segredos ---
+.env
+.env.*
+*.key
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Ambientes virtuais ---
+.venv/
+venv/
+env/
+
+# --- Cache de modelos ---
+.cache/
+huggingface/
+
+# --- Editores / SO ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
