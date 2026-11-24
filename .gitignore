@@ -2,6 +2,7 @@
 rag_index/
 docs/
 *.npy
+*.tmp
 
 # --- Segredos ---
 .env
